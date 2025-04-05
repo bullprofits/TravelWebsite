@@ -1,0 +1,298 @@
+
+body {
+    background-image: url("https://miro.medium.com/v2/resize:fit:720/format:webp/1*xMuIOwjliGUPjkzukeWKfw.jpeg");
+    background-size: cover;
+    overflow-x: hidden;   /* stops weird horizontal zoom/scroll */
+    transform: none !important;
+    zoom: 100% !important;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'lucida sans';
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+
+
+#searchBar {
+    float: right;
+    display: flex;
+    align-items: center; 
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  
+  #search, #searchBtn, #clearBtn {
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    height: 20px; 
+  }
+
+  #travelName {
+    float: left;
+  }
+  
+  #about{
+    color:antiquewhite;
+    font-size: 40px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans';
+  }
+
+
+#socials {
+  width:100px;
+  position: sticky;
+  background-color: transparent;
+}
+
+#socials ul {
+
+  background-color: transparent;
+}
+
+#about h1 {
+  margin-left: 90px;
+  backdrop-filter: blur(10px);
+}
+
+
+  
+#socials a {
+  display: block;
+  color: rgb(238, 231, 231);
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: background-color 0.3s ease;
+
+  font-family: Arial, sans-serif;
+}
+
+#socials a:hover {
+  background-color: #111;
+}
+
+#aboutusblurb {
+  padding-right: 20px;
+  margin-left:5%;
+  font-size: 20px;
+  backdrop-filter: blur(20px);
+}
+
+#ourteam{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 40px;
+}
+
+
+#ceo, #cfo, #cto {
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 20px;
+}
+
+#bookbutton {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Lucida Sans';
+  background-color:transparent;
+  border-color: white;
+  border-radius: 10px;
+  color:white;
+  backdrop-filter: blur(10px);
+}
+
+#searchBtn, #clearBtn {
+  color:white;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  font-family: 'Lucida Sans';
+}
+
+#bookbutton:hover {
+  background-color: #111;
+}
+
+#searchBtn:hover {
+  background-color: #111;
+}
+
+#clearBtn:hover {
+  background-color: #111;
+}
+
+
+#socials {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 30%;
+  backdrop-filter: blur(10px);
+
+}
+
+#contact{
+  color:antiquewhite;
+  font-size: 30px;
+  margin-left: 40px;
+  font-family: 'Lucida Sans';
+}
+
+#contact h1, h3{
+  margin-left: 90px;
+  backdrop-filter: blur(10px);
+}
+
+#contactform form {
+  display: flex;
+  flex-direction: column;
+  padding:90px;
+}
+
+#contactform label {
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+#contactform input,
+#contactform textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#contactform button {
+  padding: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  cursor: pointer;
+}
+
+#contactform button:hover {
+  background-color: white;
+  color: black;
+}
+
+#contactform input[type="text"],
+#contactform input[type="email"],
+#contactform button {
+  width: 60%;       
+  max-width: 300px; 
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+#contactform textarea{
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+#home {
+  padding-left: 100px;
+  color: antiquewhite;
+  font-family: 'Lucida Sans';
+  display:flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#home h1{
+  font-size: 50px;
+}
+
+#home bookbtn{
+  width: 60%;       
+  max-width: 300px; 
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+#searchItems {
+  font-family: 'Lucida Sans';
+  position: relative;
+  margin-left: auto;
+  top: 10%;
+  right: 0%;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color: transparent;
+}
+
+#destination {
+  width: 90%; 
+  margin-top: 2%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#destination img {
+  padding-top:2%;
+  max-width: 90%;
+  height: auto;
+  padding-left: 5%;
+
+  display: block;
+  
+}
+
+#name {
+  padding-top: 1%;
+  font-size: 20px;
+  padding-bottom: 1%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#description {
+  padding-bottom: 1%;
+  font-size: 17px;
+  overflow: none;
+}
+
